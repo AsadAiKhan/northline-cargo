@@ -1,7 +1,1 @@
-[build]
-command = "echo 'No build step required for static site'"
-output = "/"
 
-[site]
-bucket = "/"
-entry-point = "index.html"
