@@ -1,0 +1,17 @@
+[build]
+command = "npm run build"
+env = []
+
+[build.output]
+entry-point = "index.html"
+
+[site]
+bucket = "dist"
+entry-point = "index.html"
+
+[env.production]
+vars = {}
+
+[env.production.build]
+command = "npm run build"
+env = []
