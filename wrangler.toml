@@ -1,17 +1,7 @@
 [build]
-command = "npm run build"
-env = []
-
-[build.output]
-entry-point = "index.html"
+command = "echo 'No build step required for static site'"
+output = "/"
 
 [site]
-bucket = "dist"
+bucket = "/"
 entry-point = "index.html"
-
-[env.production]
-vars = {}
-
-[env.production.build]
-command = "npm run build"
-env = []
