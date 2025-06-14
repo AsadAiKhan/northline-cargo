@@ -1,12 +1,1 @@
-{
-  "name": "north-line-cargo",
-  "version": "1.0.0",
-  "description": "North Line Cargo L.L.C. Website",
-  "scripts": {
-    "build": "echo 'No build step required for static site'",
-    "deploy": "echo 'Deploying static site...'",
-    "start": "echo 'Starting static site...'
-  },
-  "author": "North Line Cargo L.L.C.",
-  "license": "ISC"
-}
+
